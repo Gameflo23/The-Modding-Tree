@@ -29,6 +29,6 @@ upgrades: {
     11: {
         description: "Multiply point gain based on water points",
         cost: new Decimal(5),
-	effect: if hasUpgrade(w,1) let gain (1.2^water points)
+	effect: if hasUpgrade(w,11) let gain (1.2^water points)
     },
 }})
