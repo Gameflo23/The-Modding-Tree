@@ -29,6 +29,5 @@ upgrades: {
     11: {
         description: "Multiply point gain based on water points",
         cost: new Decimal(5),
-        etc
     },
 }})
