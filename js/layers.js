@@ -25,4 +25,4 @@ addLayer("w", {
         {key: "w", description: "W: Reset for water points", onPress(){if (canReset(this.layer)) doReset(this.layer)}},
     ],
     layerShown(){return true}
-}})
+})
