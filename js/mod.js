@@ -43,7 +43,6 @@ function getPointGen() {
 		return new Decimal(0)
 
 	let gain = new Decimal(1)
-	if hasUpgrade(w, 11) let gain = (1.2 ^ (water points))
 	return gain
 }
 
