@@ -25,4 +25,10 @@ addLayer("w", {
         {key: "w", description: "W: Reset for water points", onPress(){if (canReset(this.layer)) doReset(this.layer)}},
     ],
     layerShown(){return true}
-})
+upgrades: {
+    11: {
+        description: "Multiply point gain based on water points",
+        cost: new Decimal(5),
+        etc
+    },
+}})
